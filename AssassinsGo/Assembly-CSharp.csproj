@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{1C2BF418-9A5D-A0A9-D1F2-5B8CA0304A41}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -64,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerMover.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Sarah/Desktop/Projects/AssassinsGo/AssassinsGo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
