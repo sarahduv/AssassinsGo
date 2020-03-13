@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float h;
+    public float v;
+    public bool inputEnabled = true;
 
-    // Update is called once per frame
-    void Update()
+    public void GetKeyInput()
     {
-        
+        if (inputEnabled)
+        {
+            h = Input.GetAxisRaw("Horizontal");
+            v = Input.GetAxisRaw("Vertical");
+        }              
     }
 }
