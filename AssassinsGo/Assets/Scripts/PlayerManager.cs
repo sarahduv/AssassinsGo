@@ -22,7 +22,7 @@ public class PlayerManager : MonoBehaviour
     void Update()
     {
         if (playerMover.isMoving)
-        {
+        {  
             return;
         }
 
