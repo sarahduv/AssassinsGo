@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMover.cs" />
+    <Compile Include="Assets\Scripts\Utility.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Sarah/Desktop/Projects/AssassinsGo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
